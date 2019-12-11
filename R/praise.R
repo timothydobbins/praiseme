@@ -13,5 +13,5 @@
 #' @examples
 #' praise(name="Steph", punctuation="!")
 praise <- function(name, punctuation = "!") {
-  paste0("You're the best, ", name, punctuation)
+  glue::glue("You're the best, {name}{punctuation}")
 }
