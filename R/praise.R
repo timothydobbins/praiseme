@@ -12,6 +12,6 @@
 #'
 #' @examples
 #' praise(name="Steph", punctuation="!")
-praise <- function(name, punctuation) {
+praise <- function(name, punctuation = "!") {
   paste0("You're the best, ", name, punctuation)
 }
