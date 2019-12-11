@@ -10,7 +10,7 @@ praise(name, punctuation = "!")
 \item{name}{This is the name of the person who needs praise.
 Input as text string}
 
-\item{punctuation}{This is our emphasis}
+\item{punctuation}{text string, this is our emphasis. Default is "!"}
 }
 \value{
 Text string with praise

@@ -4,7 +4,7 @@
 #'
 #' @param name This is the name of the person who needs praise.
 #'   Input as text string
-#' @param punctuation This is our emphasis
+#' @param punctuation text string, this is our emphasis. Default is "!"
 #'
 #' @return Text string with praise
 #'
